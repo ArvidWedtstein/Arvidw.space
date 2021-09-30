@@ -1,0 +1,149 @@
+[22-Nov-2020 12:02:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=' in /home/arvidbxr/public_html/Contact/mail.php on line 3
+[22-Nov-2020 12:02:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=' in /home/arvidbxr/public_html/Contact/mail.php on line 3
+[22-Nov-2020 12:02:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=' in /home/arvidbxr/public_html/Contact/mail.php on line 3
+[22-Nov-2020 12:03:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=' in /home/arvidbxr/public_html/Contact/mail.php on line 3
+[24-Nov-2020 17:18:38 Europe/Berlin] PHP Warning:  get_browser(): browscap ini directive not set in /home/arvidbxr/public_html/Contact/mail.php on line 5
+[24-Nov-2020 17:20:37 Europe/Berlin] PHP Warning:  get_browser(): browscap ini directive not set in /home/arvidbxr/public_html/Contact/mail.php on line 6
+[27-Nov-2020 18:25:32 Europe/Berlin] PHP Notice:  Undefined index: name in /home/arvidbxr/public_html/Contact/mail.php on line 84
+[27-Nov-2020 18:25:32 Europe/Berlin] PHP Notice:  Undefined index: email in /home/arvidbxr/public_html/Contact/mail.php on line 85
+[27-Nov-2020 18:25:32 Europe/Berlin] PHP Notice:  Undefined index: subject in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[27-Nov-2020 18:25:32 Europe/Berlin] PHP Notice:  Undefined index: message in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[06-Dec-2020 20:32:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$recipient2' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 93
+[06-Dec-2020 20:32:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$recipient2' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 93
+[06-Dec-2020 20:33:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$recipient2' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 93
+[06-Dec-2020 20:33:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$recipient2' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 93
+[06-Dec-2020 20:35:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$recipient2' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 93
+[06-Dec-2020 20:36:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$recipient2' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[06-Dec-2020 20:38:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$recipient2' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[06-Dec-2020 20:42:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/arvidbxr/public_html/Contact/mail.php on line 96
+[06-Dec-2020 20:42:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/arvidbxr/public_html/Contact/mail.php on line 96
+[06-Dec-2020 20:42:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/arvidbxr/public_html/Contact/mail.php on line 96
+[06-Dec-2020 20:43:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/arvidbxr/public_html/Contact/mail.php on line 96
+[06-Dec-2020 20:43:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/arvidbxr/public_html/Contact/mail.php on line 96
+[06-Dec-2020 20:43:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/arvidbxr/public_html/Contact/mail.php on line 96
+[06-Dec-2020 20:44:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/arvidbxr/public_html/Contact/mail.php on line 96
+[06-Dec-2020 20:47:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/arvidbxr/public_html/Contact/mail.php on line 95
+[06-Dec-2020 20:52:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function ereg() in /home/arvidbxr/public_html/Contact/replycopy.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/arvidbxr/public_html/Contact/replycopy.php on line 61
+[06-Dec-2020 20:56:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function check() in /home/arvidbxr/public_html/Contact/mail.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[06-Dec-2020 20:57:30 Europe/Berlin] PHP Notice:  Undefined index: emkop in /home/arvidbxr/public_html/Contact/replycopy.php on line 46
+[06-Dec-2020 20:57:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function ereg() in /home/arvidbxr/public_html/Contact/replycopy.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/arvidbxr/public_html/Contact/replycopy.php on line 61
+[06-Dec-2020 20:59:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function check() in /home/arvidbxr/public_html/Contact/mail.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[06-Dec-2020 20:59:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function check() in /home/arvidbxr/public_html/Contact/mail.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[06-Dec-2020 21:00:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function check() in /home/arvidbxr/public_html/Contact/mail.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[06-Dec-2020 21:04:38 Europe/Berlin] PHP Notice:  Undefined index: emkop in /home/arvidbxr/public_html/Contact/kontakt.php on line 46
+[06-Dec-2020 21:04:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function ereg() in /home/arvidbxr/public_html/Contact/kontakt.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/arvidbxr/public_html/Contact/kontakt.php on line 61
+[06-Dec-2020 21:04:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function ereg() in /home/arvidbxr/public_html/Contact/kontakt.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/arvidbxr/public_html/Contact/kontakt.php on line 61
+[06-Dec-2020 21:05:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function ereg() in /home/arvidbxr/public_html/Contact/kontakt.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/arvidbxr/public_html/Contact/kontakt.php on line 61
+[06-Dec-2020 21:16:32 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[08-Dec-2020 07:33:08 Europe/Berlin] PHP Notice:  Undefined index: name in /home/arvidbxr/public_html/Contact/mail.php on line 85
+[08-Dec-2020 07:33:08 Europe/Berlin] PHP Notice:  Undefined index: email in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[08-Dec-2020 07:33:08 Europe/Berlin] PHP Notice:  Undefined index: subject in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[08-Dec-2020 07:33:08 Europe/Berlin] PHP Notice:  Undefined index: message in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[08-Dec-2020 07:33:08 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[08-Dec-2020 09:06:51 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[09-Dec-2020 21:05:51 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[10-Dec-2020 08:05:58 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[10-Dec-2020 12:02:08 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[10-Dec-2020 20:58:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[10-Dec-2020 20:59:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[10-Dec-2020 20:59:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[10-Dec-2020 21:01:24 Europe/Berlin] PHP Notice:  Undefined index: email2 in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[10-Dec-2020 21:03:32 Europe/Berlin] PHP Notice:  Undefined index: email2 in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[10-Dec-2020 21:07:09 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[11-Dec-2020 18:57:43 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[13-Dec-2020 18:20:07 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[14-Dec-2020 11:20:44 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[17-Dec-2020 12:28:50 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[17-Dec-2020 12:31:26 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[17-Dec-2020 20:15:59 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[19-Dec-2020 00:43:29 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /home/arvidbxr/public_html/Contact/mail.php on line 60
+[20-Dec-2020 10:51:58 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[21-Dec-2020 19:32:50 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[21-Dec-2020 21:44:13 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[22-Dec-2020 03:50:38 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[22-Dec-2020 09:40:28 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[22-Dec-2020 13:27:19 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[23-Dec-2020 04:58:45 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[25-Dec-2020 18:51:06 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[25-Dec-2020 23:19:36 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[26-Dec-2020 06:11:16 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[26-Dec-2020 12:35:51 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[28-Dec-2020 13:42:06 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[28-Dec-2020 21:05:04 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[29-Dec-2020 09:13:12 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[29-Dec-2020 09:13:16 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[29-Dec-2020 14:04:21 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[30-Dec-2020 04:15:43 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[01-Jan-2021 01:34:58 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[02-Jan-2021 00:02:29 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[05-Jan-2021 14:14:34 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[06-Jan-2021 19:50:40 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[08-Jan-2021 10:14:16 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[08-May-2021 15:26:18 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /home/arvidbxr/public_html/Contact/mail.php on line 60
+[08-May-2021 15:26:18 Europe/Berlin] PHP Notice:  Undefined index: name in /home/arvidbxr/public_html/Contact/mail.php on line 85
+[08-May-2021 15:26:18 Europe/Berlin] PHP Notice:  Undefined index: email in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[08-May-2021 15:26:18 Europe/Berlin] PHP Notice:  Undefined index: subject in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[08-May-2021 15:26:18 Europe/Berlin] PHP Notice:  Undefined index: message in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[08-May-2021 15:26:18 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[24-May-2021 19:14:25 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /home/arvidbxr/public_html/Contact/mail.php on line 60
+[24-May-2021 19:14:25 Europe/Berlin] PHP Notice:  Undefined index: name in /home/arvidbxr/public_html/Contact/mail.php on line 85
+[24-May-2021 19:14:25 Europe/Berlin] PHP Notice:  Undefined index: email in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[24-May-2021 19:14:25 Europe/Berlin] PHP Notice:  Undefined index: subject in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[24-May-2021 19:14:25 Europe/Berlin] PHP Notice:  Undefined index: message in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[24-May-2021 19:14:25 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[24-Jun-2021 15:52:43 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /home/arvidbxr/public_html/Contact/mail.php on line 60
+[24-Jun-2021 15:52:43 Europe/Berlin] PHP Notice:  Undefined index: name in /home/arvidbxr/public_html/Contact/mail.php on line 85
+[24-Jun-2021 15:52:43 Europe/Berlin] PHP Notice:  Undefined index: email in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[24-Jun-2021 15:52:43 Europe/Berlin] PHP Notice:  Undefined index: subject in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[24-Jun-2021 15:52:43 Europe/Berlin] PHP Notice:  Undefined index: message in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[24-Jun-2021 15:52:43 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[08-Jul-2021 11:55:08 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /home/arvidbxr/public_html/Contact/mail.php on line 60
+[13-Jul-2021 00:02:33 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /home/arvidbxr/public_html/Contact/mail.php on line 60
+[24-Jul-2021 05:31:09 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /home/arvidbxr/public_html/Contact/mail.php on line 60
+[24-Jul-2021 05:31:09 Europe/Berlin] PHP Notice:  Undefined index: name in /home/arvidbxr/public_html/Contact/mail.php on line 85
+[24-Jul-2021 05:31:09 Europe/Berlin] PHP Notice:  Undefined index: email in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[24-Jul-2021 05:31:09 Europe/Berlin] PHP Notice:  Undefined index: subject in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[24-Jul-2021 05:31:09 Europe/Berlin] PHP Notice:  Undefined index: message in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[24-Jul-2021 05:31:09 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[28-Jul-2021 16:54:43 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /home/arvidbxr/public_html/Contact/mail.php on line 60
+[28-Jul-2021 16:54:43 Europe/Berlin] PHP Notice:  Undefined index: name in /home/arvidbxr/public_html/Contact/mail.php on line 85
+[28-Jul-2021 16:54:43 Europe/Berlin] PHP Notice:  Undefined index: email in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[28-Jul-2021 16:54:43 Europe/Berlin] PHP Notice:  Undefined index: subject in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[28-Jul-2021 16:54:43 Europe/Berlin] PHP Notice:  Undefined index: message in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[28-Jul-2021 16:54:43 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[02-Aug-2021 19:55:38 Europe/Berlin] PHP Notice:  Undefined variable: ub in /home/arvidbxr/public_html/Contact/mail.php on line 46
+[02-Aug-2021 19:55:38 Europe/Berlin] PHP Notice:  Undefined variable: ub in /home/arvidbxr/public_html/Contact/mail.php on line 57
+[02-Aug-2021 19:55:38 Europe/Berlin] PHP Deprecated:  strripos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /home/arvidbxr/public_html/Contact/mail.php on line 57
+[02-Aug-2021 19:55:38 Europe/Berlin] PHP Notice:  Undefined index: name in /home/arvidbxr/public_html/Contact/mail.php on line 85
+[02-Aug-2021 19:55:38 Europe/Berlin] PHP Notice:  Undefined index: email in /home/arvidbxr/public_html/Contact/mail.php on line 86
+[02-Aug-2021 19:55:38 Europe/Berlin] PHP Notice:  Undefined index: subject in /home/arvidbxr/public_html/Contact/mail.php on line 87
+[02-Aug-2021 19:55:38 Europe/Berlin] PHP Notice:  Undefined index: message in /home/arvidbxr/public_html/Contact/mail.php on line 88
+[02-Aug-2021 19:55:38 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94
+[20-Aug-2021 11:21:44 Europe/Berlin] PHP Notice:  Undefined index: test in /home/arvidbxr/public_html/Contact/mail.php on line 94

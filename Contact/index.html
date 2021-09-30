@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontakt</title>
+    <!-- Bootstrap -->
+	<link href="contact.css" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Julius Sans One" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	  <link href="https://fonts.googleapis.com/css?family=Trade Winds" rel="stylesheet">
+	  <link rel="icon" href="../images/ArvidLogoFavIcon.png" type="image/x-icon">
+	  <link rel="shortcut icon" href="../images/ArvidLogoFavIcon.png">
+<script src="https://kit.fontawesome.com/d9668c58fd.js" crossorigin="anonymous"></script>
+  </head>
+  <body style="padding-top: 0px">
+  	<!-- body code -->
+	  
+	 
+  <!--Navigasjonsbaren som er øverst på siden-->
+  <nav class="navbar navbar-expand-lg navbar-light"> <a href="../" class="navbar-brand animate__animated animate__backInLeft"><img style="width: 60px;filter: contrast(200%);" src="../images/ArvidLogo.png" alt="logo"></a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	         <ul class="navbar-nav mr-auto">
+			  <!-- Hjem knapp i navigeringslinjen på toppen-->
+			   <li class="nav-item"> 
+			  <a class="nav-link" href="../" id="hometab" aria-controls="home" aria-expanded="true"><i class="fas fa-home"></i></a> 
+			  </li>
+	      <li class="nav-item"> 
+		    <a class="nav-link" href="../About/">Om Meg</a> 
+		    </li>
+		    <!-- Dropdown -->
+	      <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" alt="Mitt Arbeid" aria-haspopup="true" aria-expanded="false"><i class="fas fa-briefcase"></i></a>
+	        <div class="dropdown-menu"> 
+				<a class="dropdown-header" href="../Project/">Alle Prosjekter</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="../Spill/">Spill</a>
+				<a class="dropdown-item" href="../IMcity/">IM City</a>
+				<a class="dropdown-item" href="../3D-Print/">3D</a>
+				<a class="dropdown-item" href="../Photoshop/">Photoshop</a>
+		    </div>
+          </li>
+			 <!--Kontaktside-->
+		  <li class="nav-item"> 
+		    <a class="nav-link active" href="../Contact/" id="contact1" aria-controls="contacttab" aria-expanded="true">Kontakt</a> 
+		    </li>
+    </ul>
+    </div>
+  </nav>
+	  
+<!--Breadcrumb-->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="../">Hjem</a></li>
+	  <li class="breadcrumb-item active" aria-current="page"><a>Kontakt</a></li>
+    </ol>
+  </nav>
+<div class="container-fluid">
+<div class="formBx">
+  <form id="form" action="mail.php" method="POST">
+		<h5></h5>
+		<div class="inputBox">
+    		<input type="text" id="name" name="name" required="required">
+			<span class="kontakt" for="name">Navn</span>
+		</div>
+		<div class="inputBox">
+			<span class="indicator"></span>
+    		<input type="text" id="email" name="email" required="required">
+		    <span class="kontakt" for="name">Email</span>
+		</div>
+	  	<div class="inputBox2">
+				<h5 class="kontakt2">Få tilsendt en kopi</h5>
+			<input type="checkbox" name="test" class="copy check" value="value1">
+	  	</div>
+	    <br>
+		<div class="inputBox">
+			<input type="text" id="subject" name="subject" required="required">
+    		<span class="kontakt" for="name">Emne</span>
+		</div>
+		<div class="inputBox">
+			<span class="indicator2"></span>
+			<textarea required="required" id="text" name="message" onkeyup="countChar(this)" maxlength="400"></textarea>
+    		<span class="kontakt" for="name">Melding</span>
+			<div id="charNum"></div>
+		</div>
+        <div class="inputBox">
+			<input type="submit" value="Send">
+		</div>
+  </form>
+	
+  </div>
+	  </div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../js/popper.min.js"></script> 
+	<script src="../js/bootstrap-4.4.1.js"></script>
+	  <script>
+		  document.getElementById("email").addEventListener("keyup", validate);
+	function validate() {
+	  const form = document.getElementById("form");
+      const email = document.getElementById("email").value;
+	  const pattern = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+	  
+	  if(email.match(pattern)){
+		  form.classList.add("valid");
+		  form.classList.remove("invalid");
+	  } else {
+		  form.classList.add("invalid");
+		  form.classList.remove("valid");
+	  }
+	  if(email == "") {
+		  form.classList.remove("invalid");
+		  form.classList.remove("valid");
+	  }
+	}
+		  
+	function countChar(val) {
+        var len = val.value.length;
+        if (len >= 400) {
+          val.value = val.value.substring(0, 400);
+		  $('#charNum').text(0 + "/400");
+		  form.classList.add("invalid2");
+		  form.classList.remove("valid2");
+        } else {
+		  form.classList.add("valid2");
+		  form.classList.remove("invalid2");
+          $('#charNum').text(400 - len + "/400");
+        }
+		if (len <= 0) {
+			$('#charNum').text(400 + "/400");
+		}
+
+      };
+	  </script>
+  </body>
+</html>

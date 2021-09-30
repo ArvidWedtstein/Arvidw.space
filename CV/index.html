@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV</title>
+    <!-- Bootstrap -->
+	<link href="bootstrapCV.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/d9668c58fd.js" crossorigin="anonymous"></script>
+  <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+	  <link href="https://fonts.googleapis.com/css?family=Julius Sans One" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Trade Winds" rel="stylesheet">
+  <script src="jQueryAssets/jquery.ui-1.10.4.dialog.min.js"></script>
+	  <link rel="icon" href="../images/ArvidLogoFavIcon.png" type="image/x-icon">
+	  <link rel="shortcut icon" href="../images/ArvidLogoFavIcon.png">
+  </head>
+  <body style="padding-top: 0px">
+  	<!-- body code -->
+	  
+	 
+  <!--Navigasjonsbaren som er øverst på siden-->
+  <nav class="navbar navbar-expand-lg navbar-light"> <a href="../" class="navbar-brand"><img style="width: 60px;filter: contrast(200%);" src="../images/ArvidLogo.png" alt="logo"></a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	         <ul class="navbar-nav mr-auto">
+			  <!-- Hjem knapp i navigeringslinjen på toppen-->
+			   <li class="nav-item"> 
+			  <a class="nav-link" href="../" id="hometab" aria-controls="home" aria-expanded="true"><i class="fas fa-home"></i></a> 
+			  </li>
+	      <li class="nav-item"> 
+		    <a class="nav-link" href="../About/">Om Meg</a> 
+		    </li>
+		    <!-- Dropdown -->
+	      <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="../Project/" role="button" alt="Mitt Arbeid" aria-haspopup="true" aria-expanded="false"><i class="fas fa-briefcase"></i></a>
+	        <div class="dropdown-menu"> 
+				<a class="dropdown-header" href="../Project/">Alle Prosjekter</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="../Spill/">Spill</a>
+				<a class="dropdown-item" href="../IMcity/">IM City</a>
+				<a class="dropdown-item" href="../3D-Print/">3D</a>
+				<a class="dropdown-item" href="../Photoshop/">Photoshop</a>
+		    </div>
+          </li>
+			  
+			 <!--Kontaktside-->
+		  <li class="nav-item"> 
+		    <a class="nav-link" href="../Contact/" id="contact1" aria-controls="contacttab" aria-expanded="true">Kontakt</a> 
+		    </li>
+    </ul>
+    </div>
+  </nav>
+	  
+<!--Breadcrumb-->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="../">Hjem</a></li>
+	  <li class="breadcrumb-item"><a href="../About/">Om Meg</a></li>
+	  <li class="breadcrumb-item active" aria-current="page"><a>CV</a></li>
+    </ol>
+  </nav>
+  	<!-- body code goes here -->
+		  <div style="padding:20px;">
+		  <embed style="height:700px; width: 100%;" type="application/pdf" src="CV.pdf">
+	  </div>
+  
+	
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../js/popper.min.js"></script> 
+  <script src="../js/bootstrap-4.4.1.js"></script>
+	 
+  </body>
+</html>

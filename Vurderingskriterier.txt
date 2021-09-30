@@ -1,0 +1,12 @@
+Har 9 forskjellige undersider. 
+Alle 9 undersidene har sitt eget css script.
+Alle sidene er koblet opp til samme javascript som er generert av bootstrap og jquery. 
+
+HTML er den delen som bestemmer hvilke elementer som skal være med i nettsiden, mens css er den delen som fikser utseende og javascript er den delen som gjør nettsiden funksjonell.
+
+Bootstrap er hovedsakelig ansvarlig for at forskjellige elementer kan åpnes og lukkes i tilleg til at elementer forskyves avhengig av skjermens høyde og bredde. 
+jQuery er ansvarlig for responsiviteten når det kommer til mobil.
+
+Etter at bootstrap har generert sin del av css scriptet så har jeg i etterkant selv gått inn i bootstrap scriptene og endret på stilene til elementene og lagt til andre css commandoer i tilleg.
+
+Siden bootstrap genererer mer css enn det jeg i mitt tilfelle trenger, så har jeg hovedsakelig kommentert hovedsiden og bootstrapscriptet til hovedsiden.
