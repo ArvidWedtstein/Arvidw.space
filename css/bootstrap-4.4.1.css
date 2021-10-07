@@ -4398,9 +4398,7 @@ input[type="button"].btn-block {
 	text-shadow: none;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
-.nav-itemgame {
 
-}
 .navbargame .container,
 .navbargame .container-fluid, .navbargame .container-sm, .navbargame .container-md, .navbargame .container-lg, .navbargame .container-xl, .containerabout, .containershop {
   display: -ms-flexbox;
@@ -5232,45 +5230,7 @@ input[type="button"].btn-block {
 	color: #FFFFFF;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 }
-.navbarbox {
-	position: absolute;
-	top: 0;
-	left: 70%;
-	width: 10%;
-	height: 100%;
-	text-align: center;
-	vertical-align: middle;
-	border-left: 0.1rem solid #ffffff;
-	border-right: 0.1rem solid #ffffff;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
-	background-size: 400% 200%;
-	transform: skewX(-25deg);
-	display: block;
-	animation: gradient 10s ease infinite;
-}
-.login {
-	position: absolute;
-	top: 0;
-	left: 90%;
-	width: 10%;
-	height: 100%;
-	text-align: center;
-	vertical-align: middle;
-	padding: 1rem 1rem;
-	display: block;
-	font-size: 1.5rem;
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+
 .navbar-collapse {
 	-ms-flex-preferred-size: 100%;
 	flex-basis: 100%;
@@ -5592,6 +5552,46 @@ input[type="button"].btn-block {
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
   color: rgba(255, 255, 255, 0.9);
+}
+
+.navbarbox {
+	position: absolute;
+	top: 0;
+	left: 70%;
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	border-left: 0.1rem solid #ffffff;
+	border-right: 0.1rem solid #ffffff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+	background-size: 400% 200%;
+	transform: skewX(-25deg);
+	display: block;
+	animation: gradient 10s ease infinite;
+}
+.login {
+	position: absolute;
+	top: 0;
+	left: 90%;
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1rem 1rem;
+	display: block;
+	font-size: 1.5rem;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 /*Her slutter navigasjonsbaren*/
 

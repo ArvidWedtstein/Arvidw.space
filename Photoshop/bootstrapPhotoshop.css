@@ -10512,64 +10512,64 @@ h2:after {
 
 
 .responsive {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2), 
-	  inset -5px -5px 15px rgba(255,255,255,0.1), 
-	  5px 5px 15px rgba(0,0,0,0.3),
-	  -5px -5px 15px rgba(255,255,255,0.1);
-  border-radius: 1rem;
-  min-height: 1px;
-  align-content: center;
-  align-items: center;
-  vertical-align: middle;
-  text-align: center;
-  transition: 0.3s;
-  position: relative;
-  margin: 0 auto;
-}
-.responsive:hover {
-  transform: scale(1.01);
-}
-.responsive .contentBox {
-	-ms-flex: 1 1 auto;
-  	flex: 1 1 auto;
-	border-radius: 1rem;
-	padding: 0.5rem 0.5rem;
-	
-}
-.responsive .contentBox .content {
-  position: absolute;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  transition: 0.3s;
-  bottom: 0;
-  left: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1;
-  padding: 0.5rem;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.responsive .contentBox img {
-  height: 10;
-  border-radius: 1rem;
-  max-width: 100%;
-  vertical-align: middle;
-  align-content: center;
-}
-
-.responsive .contentBox .content .desc {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: Armata;
-  font-weight: 800;
-  font-size: 1.3em;
-  letter-spacing: 1px;
-}
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2), 
+        inset -5px -5px 15px rgba(255,255,255,0.1), 
+        5px 5px 15px rgba(0,0,0,0.3),
+        -5px -5px 15px rgba(255,255,255,0.1);
+    border-radius: 1rem;
+    min-height: 1px;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    transition: 0.3s;
+    position: relative;
+    margin: 0 auto;
+  }
+  .responsive:hover {
+    transform: scale(1.01);
+  }
+  .responsive .contentBox {
+      -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+      border-radius: 1rem;
+      padding: 0.5rem 0.5rem;
+      
+  }
+  .responsive .contentBox .content {
+    position: absolute;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    transition: 0.3s;
+    bottom: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    padding: 0.5rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .responsive .contentBox img {
+    height: 10;
+    border-radius: 1rem;
+    max-width: 100%;
+    vertical-align: middle;
+    align-content: center;
+  }
+  
+  .responsive .contentBox .content .desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Armata;
+    font-weight: 800;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+  }
 
 
