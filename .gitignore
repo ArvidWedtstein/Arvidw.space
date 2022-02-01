@@ -1,2 +1,4 @@
 .htaccess
 images
+node_modules
+*.css
