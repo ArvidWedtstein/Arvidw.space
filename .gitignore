@@ -3,3 +3,4 @@ images
 node_modules
 *.css
 jQueryAssets/
+js/
